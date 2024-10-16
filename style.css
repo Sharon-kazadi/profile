@@ -1,0 +1,64 @@
+.image-circle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%
+}
+
+body{
+  background-color: white;
+  font-family: courier, monospace;
+  color: black;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+h1, h2{
+  color: rgb(141, 22, 141);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card{
+  background: white;
+  border: 1px solid black;
+  border-radius: 30%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px;
+}
+
+@media (max-width: 40%) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 30%;
+  }
+}
+
+@media (max-width: 30%) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 20%;
+  }
+}
+
+@media (max-width: 20%) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 10%;
+  }
+}
