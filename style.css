@@ -1,11 +1,13 @@
 .image-circle{
   width: 150px;
   height: 150px;
-  border-radius: 50%
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 body{
-  background-color: white;
+  background-color: #9f86c0;
   font-family: courier, monospace;
   color: black;
   font-size: 20px;
@@ -17,6 +19,7 @@ h1, h2{
   font-family: Arial, sans-serif;
   font-size: 20px;
   line-height: 1.6;
+  text-align: center;
 }
 
 a {
@@ -29,17 +32,18 @@ a:hover {
 }
 
 .container {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   justify-content: center;
 }
 
 .card{
   background: white;
-  border: 1px solid black;
-  border-radius: 30%;
+  border: 3px solid black;
+  border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   padding: 30px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 40%) {
